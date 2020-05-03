@@ -27,6 +27,7 @@ namespace ms_delivery.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
+            var test = new List<string>();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
