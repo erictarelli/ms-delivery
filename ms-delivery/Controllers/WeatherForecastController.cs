@@ -28,7 +28,7 @@ namespace ms_delivery.Controllers
         {
             var rng = new Random();
 
-            var Listtest = new List<double>();
+            var Listt = new List<string>();
 
 
             //cambio de emergencia
