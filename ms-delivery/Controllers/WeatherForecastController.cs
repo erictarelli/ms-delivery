@@ -30,6 +30,12 @@ namespace ms_delivery.Controllers
 
             var test = new List<string>();
 
+
+            //cambio de emergencia
+            //agrego lista de productos
+
+            var listProduct = new List<string>();
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
